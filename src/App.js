@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Button from "@material-ui/core/Button";
+import Button from '@material-ui/core/Button';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav';
+import { Nav, Navbar } from 'react-bootstrap';
+
 
 class App extends Component {
   constructor(props){
@@ -15,28 +19,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        
+          <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Nav className="mr-auto">
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#features">Features</Nav.Link>
+                <Nav.Link href="#pricing">Pricing</Nav.Link>
+            </Nav>
+      
+    
+          </Navbar>
+        
           <p>
             number of times pressed: {this.state.numClicks}
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+       
             Hello There
-          </a>
           
-          <Button 
-            variant="contained"
-            color="primary"
-           
-            >
-
-            Click Me
-          </Button>
+        <header className="App-header">
 
         </header>
       </div>
