@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/geonsoo/hcde498-airtoday.git/precache-manifest.d105e38e5a12975304c2b9c420cfb8f0.js"
+  "/hcde498-airtoday/precache-manifest.1d984f0b278084baa9332fe5d5f850ac.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/geonsoo/hcde498-airtoday.git/index.html", {
+workbox.routing.registerNavigationRoute("/hcde498-airtoday/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
