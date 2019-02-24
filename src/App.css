@@ -36,6 +36,33 @@ Container{
   background: url(img/homepage_page_1.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
+.scene_one .col{
+  margin: 30% 0 15% 0;
+}
+
+.section_one_text{
+  text-align: center;
+  font-size: 2.5rem;
+
+  color: white
+}
+.button_row{
+  margin: 0 auto;
+}
+.button_scene_one{
+  background: #79A8A9;
+  border: none;
+  font: bold;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
 .scene_two{
   background: url(img/homepage_page_2.png) no-repeat center center fixed;
   background-size: cover;
@@ -63,8 +90,6 @@ Container{
   size: 4em;
 
 }
-
-
 
 .second {
   background: skyblue transparent;

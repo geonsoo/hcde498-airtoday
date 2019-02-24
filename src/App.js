@@ -5,7 +5,7 @@ import './App.css';
 import Button from '@material-ui/core/Button';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
-import { Nav, Navbar, Col, Container, Row } from 'react-bootstrap';
+import { Nav, Navbar, Col, Container, Row, ButtonToolbar, Buttons } from 'react-bootstrap';
 
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
       numClicks: 0
     }
   }
+  
   render() {
     return (
       <div className="App">
@@ -36,9 +37,20 @@ class App extends Component {
             <div className = "wrapper scene_one"  >        
               <Container className = "first main_page">
                 <Row>
-                  <Col class="align-middle">The air around you is changing. Wii you help stop it?</Col>
+                  <Col>
+                  <span class="section_one_text">The air around you is changing. Will you help stop it?
+                  </span>
+                  </Col>
                </Row>
-               
+
+               <Row >
+                <div class="button_row">
+                <Button variant="info" size="lg" class ="button_scene_one">Button</Button>
+                </div>
+              </Row>
+
+              
+
     
               </Container>
             </div>
