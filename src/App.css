@@ -9,18 +9,78 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
   color: #61dafb;
+}
+.wrapper{
+  background:none;
+}
+
+Container{
+  
+  overflow: hidden;
+
+}
+
+.scene_one{
+  background: url(img/homepage_page_1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.scene_two{
+  background: url(img/homepage_page_2.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.scene_three{
+  background: url(img/homepage_page_3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.scene_four{
+  background: url(img/homepage_page_4.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+
+.first {
+  background: tomato transparent;
+  
+  height: 100vh;
+  text-align: center;
+  size: 4em;
+
+}
+
+
+
+.second {
+  background: skyblue transparent;
+  height: 100vh;
+}
+.third {
+  background: lightcoral transparent;
+  height: 100vh;
+}
+.fourth {
+  background: lightgreen transparent;
+  height: 100vh;
+}
+.fifth {
+  background: lightgrey;
+  height: 100vh;
 }
 
 @keyframes App-logo-spin {

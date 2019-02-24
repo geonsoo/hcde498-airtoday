@@ -11,7 +11,7 @@
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
   },
-  "homepage": "https://github.com/geonsoo/hcde498-airtoday.git",
+  "homepage": "https://geonsoo.github.io/hcde498-airtoday/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
