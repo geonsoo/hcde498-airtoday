@@ -64,11 +64,11 @@ class App extends Component {
               <Container className = "second">
                 <Row>
                   <Col>
-                    <h2 class="scene_two_title"> What and how does air pollution happen?</h2>
+                    <h2 class="scene_two_title">What and how does air pollution happen?</h2>
                     <p class="scene_two_text">Air pollution can be defined as the presence of toxic chemicals or compounds in the air, at levels that pose 
 a health risk and cause detrimental changes to the earth such as damaging of the ozone layer or causing global warming. </p>
 
-                    <p  class="scene_two_text"> Most often, pollution is caused by human causes such as factories, cars and airplanes and cigarrettes. 
+                    <p  class="scene_two_text">Most often, pollution is caused by human causes such as factories, cars and airplanes and cigarrettes. 
 Some types of air pollution, are caused form natural sources such as smoke from wildfires or ash from volcanoes.</p>
 
                   </Col>
