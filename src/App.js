@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Button from '@material-ui/core/Button';
-// import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
-import { Nav, Navbar, Col, Container, Row, ButtonToolbar, Buttons } from 'react-bootstrap';
+import { Nav, Navbar, Col, Container, Row, ButtonToolbar, Buttons, Overlays } from 'react-bootstrap';
 
 
 class App extends Component {
@@ -86,6 +84,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
     
               </Container>
             </div>
+
             <div className = "wrapper scene_three"  >  
               <Container className = "third">
                 <Row>
@@ -109,6 +108,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                       </p>
                     </div>
                 </Col>
+                
                   </Row>
     
               </Container>
@@ -117,22 +117,12 @@ Some types of air pollution, are caused form natural sources such as smoke from 
 
               <Container className = "fourth">
                 <Row>
-                  <Col>
-                    <div class = "scene_four_left">
-                      <span class = "scene_four_left_text">What can you do to take action?</span>
-                    </div>
-                  </Col>
-
-                  <Col>
-                    <div class = "scene_four_right">
-                      <img src="img/daily_actions_button.jpg" alt = "Daily Actions"></img>
-                      <img src="img/campaign_button.jpg" alt = "Campaign"></img>
-
-
-                    </div>
-
-                  </Col>
-                  
+                <h2>What can you do to take action?</h2>
+                
+                
+                
+                <a href="#"> <img src="img/daily_actions_button.jpg" alt = "Daily Actions" class="img_left"></img> </a>
+                <a href="#">    <img src="img/campaign_button.jpg" alt = "Campaign" class="img_right"></img> </a>
                </Row>
     
               </Container>
@@ -153,7 +143,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
          <footer>
         
 
-         <Navbar bg="dark" variant="dark" >
+         <Navbar bg="dark" variant="dark" sticky="bottom">
             {/* <Navbar.Brand href="#home">Navbar with text</Navbar.Brand> */}
             <Navbar.Collapse className="justify-content-end">
               <Navbar.Text>
@@ -162,6 +152,9 @@ Some types of air pollution, are caused form natural sources such as smoke from 
             </Navbar.Collapse>
          </Navbar>
          </footer>
+
+      
+
       </div>
     );
   }
