@@ -173,12 +173,31 @@ Container{
 }
 
 .img_left{
-  background: url("img/daily_actions_button.jpg")  no-repeat;
+  background: url("img/dailyaction_original.jpg")  no-repeat;
+  display: block;
+  width: 550px;
+  height: 244px;
 }
 
 .img_left:hover{
   background: url("img/dailyaction_hover.jpg")  no-repeat;
+  width: 550px;
+  height: 244px;
+  display: block;
+}
 
+img_right{
+  background: url("img/campaign_original.jpg")  no-repeat;
+  display: block;
+  width: 550px;
+  height: 244px;
+}
+
+.img_right:hover{
+  background: url("img/campaign_hover.jpg")  no-repeat;
+  width: 550px;
+  height: 244px;
+  display: block;
 }
 
 .fourth img{

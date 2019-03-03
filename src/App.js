@@ -121,8 +121,13 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 
                 
                 
-                <a href="#"> <img src="img/daily_actions_button.jpg" alt = "Daily Actions" class="img_left"></img> </a>
-                <a href="#">    <img src="img/campaign_button.jpg" alt = "Campaign" class="img_right"></img> </a>
+                <a href="#">  
+                   <div class ="img_left"> </div>
+                </a>
+                    
+                <a href="#"> 
+                <div class ="img_right"> </div>
+                </a>
                </Row>
     
               </Container>
