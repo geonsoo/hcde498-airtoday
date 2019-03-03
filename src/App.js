@@ -89,7 +89,6 @@ Some types of air pollution, are caused form natural sources such as smoke from 
             <div className = "wrapper scene_three"  >  
               <Container className = "third">
                 <Row>
-                  
                   <Col>
                     <div class = "scene_three_wrap">
                       <h1 class = "scene_three_title">What are the effects? </h1>
@@ -102,7 +101,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                       as irritation to the nose, throat, eyes, or skin.
                         Air pollution can also cause headaches, dizziness, and nausea. </p>
                       <br></br>
-                     
+                  
                       <p class = "scene_three_text">
                       <strong>Long-term effects</strong> of air pollution can last for years or for 
                       an entire lifetime. Nearly <strong>2.5 million people die worldwide</strong> each 
