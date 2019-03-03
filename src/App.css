@@ -40,7 +40,7 @@ Container{
 
 /* Scene1 */
 .scene_one{
-  background: url(img/homepage_page_1.jpg) no-repeat center center fixed;
+  background: url(img/background_home.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -150,8 +150,11 @@ Container{
   background-size: cover;
 }
 
-.scene_four_left{
-    margin: 70% 0;
+.scene_four h2{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 5% 0 2% 0;
 }
 
 .scene_four_left_text{
@@ -169,14 +172,50 @@ Container{
   padding: 4% 0 0 0;
 }
 
+.scene_four a{
+  margin: 0 1% 0 0;
+}
+
+.fourth_wrap{
+  margin: 0 auto;
+}
 
 
+.img_left{
+  background: url("img/dailyaction_original.jpg")  no-repeat;
+  display: flex;
+  width: 500px;
+  height: 218px;
+}
 
+.img_left:hover{
+  background: url("img/dailyaction_hover.jpg")  no-repeat;
+  width: 500px;
+  height: 218px;
+  display: flex;
+}
 
+.img_right{
+  background: url("img/campaign_original.jpg")  no-repeat;
+  display: flex;
+  width: 500px;
+  height: 218px;
+}
 
+.img_right:hover{
+  background: url("img/campaign_hover.jpg")  no-repeat;
+  width: 500px;
+  height: 218px;
+  display: flex;
+}
 
-
-
+.fourth img{
+  max-width: 100%;
+  height: auto;
+  margin: 3% 0 0 3%;
+  width: 100%;
+  height: auto;
+}
 .first {
   background: tomato transparent;
   
@@ -196,12 +235,14 @@ Container{
 }
 .fourth {
   background: lightgreen transparent;
-  height: 100vh;
+  height: 110vh;
 }
 .fifth {
   background: lightgrey;
   height: 100vh;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -210,4 +251,76 @@ Container{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .scene_three_wrap{
+    background-color: rgba(121,168,169, 0.5);
+  
+    width: 100%;
+    padding: 5%;
+    margin: 12% 0;
+    font:bold;
+  }
+
+  .fourth img{
+    max-width: 95%;
+    height: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .first {
+    background: tomato transparent;
+    
+    height: 65vh;
+    text-align: center;
+    size: 4em;
+  
+  }
+  
+  .second {
+    background: skyblue transparent;
+    height: 70vh;
+  }
+  .third {
+    background: lightcoral transparent;
+    height: 65vh;
+  }
+  .fourth {
+    background: lightgreen transparent;
+    height: 90vh;
+  }
+
+
+  .img_left{
+    background: url("img/dailyaction_original1.jpg")  no-repeat;
+    display: block;
+    width: 390px;
+    height: 170px;
+  }
+  
+  .img_left:hover{
+    background: url("img/dailyaction_hover1.jpg")  no-repeat;
+    width: 390px;
+    height: 170px;
+    display: block;
+  }
+  
+  .img_right{
+    background: url("img/campaign_original1.jpg")  no-repeat;
+    display: block;
+    width: 390px;
+    height: 170px;
+  }
+  
+  .img_right:hover{
+    background: url("img/campaign_hover1.jpg")  no-repeat;
+    width: 390px;
+    height: 170px;
+    display: block;
+  }
+  
 }
