@@ -4,7 +4,7 @@ import './App.css';
 
 import Button from '@material-ui/core/Button';
 import { Nav, Navbar, Col, Container, Row, ButtonToolbar, Buttons, Overlays } from 'react-bootstrap';
-
+// import AirInsight from './AirInsight';
 
 class App extends Component {
   constructor(props){
@@ -28,9 +28,10 @@ class App extends Component {
               alt="Air Today logo"
             /></Navbar.Brand>
             <Navbar.Collapse className="justify-content-end nav_text">
-                <Nav.Link href="#air_insight" >Air Insight</Nav.Link>
+                <Nav.Link href="AirInsight.js" >Air Insight</Nav.Link>
                 <Nav.Link href="#take_action">Take Action</Nav.Link>
                 <Nav.Link href="#about" >About</Nav.Link>
+                
             </Navbar.Collapse>
          
     
@@ -119,15 +120,16 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 <Row>
                 <h2>What can you do to take action?</h2>
                 
+                <div class = "fourth_wrap">
                 
-                
-                <a href="#">  
-                   <div class ="img_left"> </div>
-                </a>
-                    
-                <a href="#"> 
-                <div class ="img_right"> </div>
-                </a>
+                  <a href="#">  
+                    <div class ="img_left"> </div>
+                  </a>
+                      
+                  <a href="#"> 
+                    <div class ="img_right"> </div>
+                  </a>
+                </div>
                </Row>
     
               </Container>
