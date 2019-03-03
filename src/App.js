@@ -89,6 +89,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
             <div className = "wrapper scene_three"  >  
               <Container className = "third">
                 <Row>
+                  
                   <Col>
                     <div class = "scene_three_wrap">
                       <h1 class = "scene_three_title">What are the effects? </h1>
@@ -160,6 +161,12 @@ Some types of air pollution, are caused form natural sources such as smoke from 
          </Navbar>
          </footer>
 
+
+
+
+
+
+      
       
 
       </div>
