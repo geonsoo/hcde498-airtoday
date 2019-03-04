@@ -22,43 +22,41 @@
 .App-link {
   color: #61dafb;
 }
-.wrapper{
-  background:none;
+.wrapper {
+  background: none;
 }
 
-Container{
-  
+Container {
   overflow: hidden;
-
 }
-.nav_text a{
+.nav_text a {
   color: lightgrey;
 }
-.nav_text a:hover{
+.nav_text a:hover {
   color: darkgrey;
 }
 
 /* Scene1 */
-.scene_one{
+.scene_one {
   background: url(img/homepage_page_1.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.scene_one .col{
+.scene_one .col {
   margin: 25% 0 5% 0;
 }
 
-.section_one_text{
+.section_one_text {
   text-align: center;
   font-size: 2.5rem;
 
-  color: white
+  color: white;
 }
-.button_row{
+.button_row {
   margin: 0 auto;
 }
-.button_scene_one{
-  background: #79A8A9;
+.button_scene_one {
+  background: #79a8a9;
   border: none;
   font: bold;
   color: white;
@@ -71,119 +69,96 @@ Container{
 }
 
 /* Secene 2 */
-.scene_two{
+.scene_two {
   background: url(img/homepage_page_2.png) no-repeat center center fixed;
   background-size: cover;
 }
 
-
-
-
-.scene_two_title{
+.scene_two_title {
   color: white;
   font-size: 2rem;
   text-align: center;
   margin: 15% 0 3% 0;
-  
 }
 
-.scene_two_text{
+.scene_two_text {
   color: white;
   font-size: 1rem;
   text-align: center;
   line-height: 1.5;
   margin: 1% 0;
 }
-.second p{
+.second p {
   text-align: center;
 }
-.scene_image{
+.scene_image {
   margin: 0 auto;
   padding: 5%;
 }
 
-
-.scene_image img{
+.scene_image img {
   height: auto;
   width: 25%;
   padding: 0 2%;
 }
 
-
-
 /* Scene 3 */
-.scene_three{
+.scene_three {
   background: url(img/homepage_page_3.jpg) no-repeat center center fixed;
   background-size: cover;
-
 }
 
-
-.scene_three_wrap{
-  background-color: rgba(121,168,169, 0.5);
+.scene_three_wrap {
+  background-color: rgba(121, 168, 169, 0.5);
 
   width: 50%;
   padding: 5%;
   margin: 12% 0;
-  font:bold;
+  font: bold;
 }
 
-.scene_three_title{
+.scene_three_title {
   color: #333333;
   font-size: 2rem;
   margin: 0 0 4% 0;
-
 }
 
-.scene_three_text{
+.scene_three_text {
   color: #333333;
-  font-size:1rem;
+  font-size: 1rem;
   margin: 0;
 }
 
-
-
-
 /* Scene 4 */
-.scene_four{
+.scene_four {
   background: url(img/homepage_page_4.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.scene_four_left{
-    margin: 70% 0;
+.scene_four_left {
+  margin: 70% 0;
 }
 
-.scene_four_left_text{
+.scene_four_left_text {
   color: white;
   font-size: 2rem;
   text-align: center;
 }
 
-.scene_four_right{
-
+.scene_four_right {
   margin: 13% 0;
 }
 
-.scene_four_right img{
+.scene_four_right img {
   padding: 4% 0 0 0;
 }
 
-
-
-
-
-
-
-
-
 .first {
   background: tomato transparent;
-  
+
   height: 100vh;
   text-align: center;
   size: 4em;
-
 }
 
 .second {
@@ -210,4 +185,101 @@ Container{
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Take Action  */
+.whole_page {
+  background: url(img/take_action_background.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 300vh;
+}
+
+.header_text {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0% 0 3% 0;
+  padding-top: 9%;
+}
+
+.sub_text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.takeaction_button {
+  text-align: center;
+  display: block;
+  margin: 4% auto 0% auto;
+  width: 50%;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #f4f7f7;
+  border-radius: 0rem;
+}
+
+.oncard_header {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0% 0 3% 0;
+  padding-top: 2%;
+}
+
+.oncard_text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 5% 5% 5%;
+}
+
+.item_type {
+  text-align: center;
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.item_type img {
+  height: auto;
+  width: 25%;
+  padding: 0 2%;
+}
+
+.card {
+  margin: 1.5% 12%;
+  border-radius: 0rem;
+}
+
+.card-body {
+  padding: 5% 0;
+  margin: 0 0% 0% 25%;
+  text-align: left;
+}
+
+.card-image {
+  margin: 0 0% 0% 2%;
+}
+
+.card-title {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.card-text {
+  color: #79a8a9;
+  margin: 1% 0 0 0;
+  font-size: 1rem;
+}
+
+.card-text-campaign {
+  color: #828282;
+  margin: 1% 0 0 0;
+  font-size: 1rem;
+}
+
+.card-button {
+  margin: 1% 0 0 0;
 }
