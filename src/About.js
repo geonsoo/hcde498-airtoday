@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class AirInsight extends Component {
+class About extends Component {
   render() {
     return (
         <div>
@@ -9,4 +9,4 @@ class AirInsight extends Component {
   }
 }
 
-export default AirInsight;
+export default About;
