@@ -36,123 +36,6 @@ Container {
   color: darkgrey;
 }
 
-/* Scene1 */
-.scene_one {
-  background: url(img/homepage_page_1.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.scene_one .col {
-  margin: 25% 0 5% 0;
-}
-
-.section_one_text {
-  text-align: center;
-  font-size: 2.5rem;
-
-  color: white;
-}
-.button_row {
-  margin: 0 auto;
-}
-.button_scene_one {
-  background: #79a8a9;
-  border: none;
-  font: bold;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 4px;
-}
-
-/* Secene 2 */
-.scene_two {
-  background: url(img/homepage_page_2.png) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.scene_two_title {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  margin: 15% 0 3% 0;
-}
-
-.scene_two_text {
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.5;
-  margin: 1% 0;
-}
-.second p {
-  text-align: center;
-}
-.scene_image {
-  margin: 0 auto;
-  padding: 5%;
-}
-
-.scene_image img {
-  height: auto;
-  width: 25%;
-  padding: 0 2%;
-}
-
-/* Scene 3 */
-.scene_three {
-  background: url(img/homepage_page_3.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.scene_three_wrap {
-  background-color: rgba(121, 168, 169, 0.5);
-
-  width: 50%;
-  padding: 5%;
-  margin: 12% 0;
-  font: bold;
-}
-
-.scene_three_title {
-  color: #333333;
-  font-size: 2rem;
-  margin: 0 0 4% 0;
-}
-
-.scene_three_text {
-  color: #333333;
-  font-size: 1rem;
-  margin: 0;
-}
-
-/* Scene 4 */
-.scene_four {
-  background: url(img/homepage_page_4.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.scene_four_left {
-  margin: 70% 0;
-}
-
-.scene_four_left_text {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.scene_four_right {
-  margin: 13% 0;
-}
-
-.scene_four_right img {
-  padding: 4% 0 0 0;
-}
-
 .first {
   background: tomato transparent;
 
@@ -171,7 +54,7 @@ Container {
 }
 .fourth {
   background: lightgreen transparent;
-  height: 110vh;
+  height: 100vh;
 }
 .fifth {
   background: lightgrey;
