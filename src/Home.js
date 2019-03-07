@@ -21,7 +21,7 @@ class Home extends Component {
               <Container className = "first main_page"> 
                 <Row>
                   <Col>
-                  <span class="section_one_text">The air around you is changing. Will you help to stop it?
+                  <span className ="section_one_text">The air around you is changing. Will you help to stop it?
                   </span>
                   </Col>
                </Row>
@@ -30,22 +30,18 @@ class Home extends Component {
                 <div class="button_row">
                 <Button variant="info" size="lg" class ="button_scene_one">Button</Button>
                 </div>
-              </Row>
-
-              
-
-    
+              </Row>    
               </Container>
             </div>
             <div className = "wrapper scene_two"  >  
               <Container className = "second">
                 <Row>
                   <Col>
-                    <h2 class="scene_two_title">What and how does air pollution happen?</h2>
-                    <p class="scene_two_text">Air pollution can be defined as the presence of toxic chemicals or compounds in the air, at levels that pose 
+                    <h2 className ="scene_two_title">What and how does air pollution happen?</h2>
+                    <p className ="scene_two_text">Air pollution can be defined as the presence of toxic chemicals or compounds in the air, at levels that pose 
 a health risk and cause detrimental changes to the earth such as damaging of the ozone layer or causing global warming. </p>
 
-                    <p  class="scene_two_text">Most often, pollution is caused by human causes such as factories, cars and airplanes and cigarrettes. 
+                    <p  className ="scene_two_text">Most often, pollution is caused by human causes such as factories, cars and airplanes and cigarrettes. 
 Some types of air pollution, are caused form natural sources such as smoke from wildfires or ash from volcanoes.</p>
 
                   </Col>
@@ -53,7 +49,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 </Row>
 
                 <Row>
-                  <div class = "scene_image">
+                  <div className = "scene_image">
                     <img src="img/factories.jpg" alt = "factories"></img>
                     <img src="img/veihcles.jpg" alt = "vehicles"></img>
                     <img src="img/cigarette.jpg" alt = "cigarette"></img>
@@ -68,10 +64,10 @@ Some types of air pollution, are caused form natural sources such as smoke from 
               <Container className = "third">
                 <Row>
                   <Col>
-                    <div class = "scene_three_wrap">
-                      <h1 class = "scene_three_title">What are the effects? </h1>
+                    <div className = "scene_three_wrap">
+                      <h1 className = "scene_three_title">What are the effects? </h1>
 
-                      <p class = "scene_three_text">People experience a wide range of health effects from being exposed 
+                      <p className = "scene_three_text">People experience a wide range of health effects from being exposed 
                       to air pollution. Effects can be broken down into short-term effects
                       and long-term effects. </p>
                       <br></br>
@@ -80,7 +76,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                         Air pollution can also cause headaches, dizziness, and nausea. </p>
                       <br></br>
                   
-                      <p class = "scene_three_text">
+                      <p className = "scene_three_text">
                       <strong>Long-term effects</strong> of air pollution can last for years or for 
                       an entire lifetime. Nearly <strong>2.5 million people die worldwide</strong> each 
                       year from the effects of outdoor or indoor air pollution. 
@@ -98,26 +94,22 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 <Row>
                 <h2>What can you do to take action?</h2>
                 
-                <div class = "fourth_wrap">
+                <div className = "fourth_wrap">
                 
                   <a href="#">  
-                    <div class ="img_left"> </div>
+                    <div className ="img_left"> </div>
                   </a>
                       
                   <a href="#"> 
-                    <div class ="img_right"> </div>
+                    <div className ="img_right"> </div>
                   </a>
                 </div>
                </Row>
     
               </Container>
             </div>
-    
-          
          </body>
-
          <footer>
-
          <Navbar bg="dark" variant="dark" sticky="bottom">
             <Navbar.Collapse className="justify-content-end">
               <Navbar.Text>
@@ -125,10 +117,7 @@ Some types of air pollution, are caused form natural sources such as smoke from 
               </Navbar.Text>
             </Navbar.Collapse>
          </Navbar>
-        
          </footer>
-
-
       </div>
     )
   }

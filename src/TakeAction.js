@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 
+
 import {
   Nav,
   Navbar,
@@ -18,6 +19,9 @@ import {
 import "./App.css";
 import "./TakeAction.css";
 import axios from "axios";
+
+
+import test from "./img/daily00_car.jpg";
 const API_PATH = "http://localhost:3000/api/contact/index.php";
 
 // import AirInsight from './AirInsight';
@@ -33,7 +37,7 @@ class TakeAction extends Component {
 
   render() {
     return (
-      <div>
+ 
         <body>
           {/* Take action daily version here */}
           <div className="wrapper whole_page">
@@ -46,8 +50,8 @@ class TakeAction extends Component {
             <Container>
               <Row>
                 <div class="takeaction_button">
-                  <img src="img/daily_daily.jpg" alt="daily" />
-                  <img src="img/daily_campaign.jpg" alt="campaigns" />
+                  <img src="./img/daily_daily.jpg" alt="daily" />
+                  <img src="./img/daily_campaign.jpg" alt="campaigns" />
                 </div>
                 <Jumbotron>
                   <h1 class="oncard_header">
@@ -61,10 +65,10 @@ class TakeAction extends Component {
                     pollution.
                   </p>
                   <div class="item_type">
-                    <img src="img/daily00_car.jpg" alt="car" />
-                    <img src=".img/daily01_energy.jpg" alt="energy" />
-                    <img src="img/daily02_trash.jpg" alt="trash" />
-                    <img src="img/daily04_house.jpg" alt="house" />
+                    <img src={test} alt="car" />
+                    <img src="./img/daily01_energy.jpg" alt="energy" />
+                    <img src="./img/daily02_trash.jpg" alt="trash" />
+                    <img src="./img/daily04_house.jpg" alt="house" />
                   </div>
 
                   <div class="card_list flex-row flex-wrap">
@@ -88,7 +92,7 @@ class TakeAction extends Component {
                     <Card class="card shadow-sm border-light">
                       <img
                         class="card-image"
-                        src="/img/daily2_energystar.png"
+                        src="./img/daily2_energystar.png"
                         alt="energy star"
                       />
                       <Card.Body>
@@ -103,7 +107,7 @@ class TakeAction extends Component {
                     <Card class="card shadow-sm border-light">
                       <img
                         class="card-image"
-                        src="/img/daily3_lightbulb.png"
+                        src="./img/daily3_lightbulb.png"
                         alt="lightbulb"
                       />
                       <Card.Body>
@@ -336,7 +340,7 @@ class TakeAction extends Component {
             </Navbar>
           </footer>
         </body>
-      </div>
+
     );
   }
 }
