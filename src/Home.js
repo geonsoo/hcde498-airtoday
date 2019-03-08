@@ -27,7 +27,7 @@ class Home extends Component {
                </Row>
 
                <Row >
-                <div class="button_row">
+                <div className ="button_row">
                 <Button variant="info" size="lg" class ="button_scene_one">Button</Button>
                 </div>
               </Row>    

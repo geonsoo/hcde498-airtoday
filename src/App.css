@@ -22,14 +22,10 @@
 .App-link {
   color: #61dafb;
 }
-/* .wrapper{
-  background:none;
-} */
+
 
 Container{
-  
   overflow: hidden;
-
 }
 .nav_text a{
   color: lightgrey;
@@ -75,9 +71,6 @@ Container{
   background: url(img/homepage_page_2.png) no-repeat center center fixed;
   background-size: cover;
 }
-
-
-
 
 .scene_two_title{
   color: white;
@@ -216,9 +209,9 @@ Container{
   width: 100%;
   height: auto;
 }
+
 .first {
   background: tomato transparent;
-  
   height: 100vh;
   text-align: center;
   size: 4em;

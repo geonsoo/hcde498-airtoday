@@ -1,0 +1,74 @@
+
+/* AirInsight scene 1 */
+.air_scene_one{
+    background-color: white;
+    color:#333333;
+}
+
+.air_scene_one h2{
+    padding-top: 5%
+}
+
+/* AirInsight scene 2 */
+.air_scene_two{
+    background-color: #FBFBFB;
+    color:#333333;
+}
+
+.air_scene_two h2{
+    padding-top: 2%
+}
+
+/* AirInsight scene 3 */
+.air_scene_three{
+    background-color: white;
+    color:#333333;
+
+}
+
+.air_scene_three h2{
+    padding-top: 2%;
+}
+.air_third .card-body {
+    margin: 4% 11% 1% 7%;
+    
+}
+
+.air_third .card-title {
+    margin: 2% 0% 6% 0%;
+    
+}
+
+.air_third .card-test {
+   text-align: left;
+
+}
+
+.air_third .card{
+    box-shadow: 5px 5px #888888;
+}
+
+.row{
+    padding-top: 3%;
+}
+
+
+.air_button_row{
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+.air_button_scene_one{
+    background: #79A8A9;
+    border: none;
+    font: bold;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
