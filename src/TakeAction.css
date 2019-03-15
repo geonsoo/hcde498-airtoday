@@ -8,57 +8,43 @@
   pointer-events: none;
 }
 
-.App-header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
-}
-
 .App-link {
   color: #61dafb;
 }
-/* .wrapper {
-  background: none;
-} */
 
 Container {
   overflow: hidden;
 }
+
 .nav_text a {
   color: lightgrey;
 }
+
 .nav_text a:hover {
   color: darkgrey;
 }
 
-.first {
-  background: tomato transparent;
-
-  height: 100vh;
+.nav-tabs {
   text-align: center;
-  size: 4em;
+  position: relative;
+  border-radius: 0rem;
+  font-weight: bold;
 }
 
-.second {
-  background: skyblue transparent;
-  height: 100vh;
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #f4f7f7;
+  border-color: #79a8a9 #dee2e6 #f4f7f7;
+  border-top-width: 0.25rem;
+  border-radius: 0rem;
+  /* width: max-content; */
 }
-.third {
-  background: lightcoral transparent;
-  height: 100vh;
-}
-.fourth {
-  background: lightgreen transparent;
-  height: 100vh;
-}
-.fifth {
-  background: lightgrey;
-  height: 100vh;
+
+.nav-tabs .nav-link {
+  color: #568a9d;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 0rem;
 }
 
 @keyframes App-logo-spin {
@@ -74,7 +60,7 @@ Container {
 .whole_page {
   background: url(img/takeaction-background.png) no-repeat center center fixed;
   background-size: cover;
-  height: 300vh;
+  height: 200vh;
 }
 
 .header_text {
@@ -87,6 +73,7 @@ Container {
 .sub_text {
   font-size: 1rem;
   text-align: center;
+  margin: 0 0 3% 0;
 }
 
 .takeaction_button {
@@ -168,7 +155,7 @@ Container {
 .card-text-campaign {
   color: #333333;
   margin: 3% 7% 5% 0%;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: left;
   font-weight: 400;
 }
@@ -183,4 +170,9 @@ Container {
   font-size: 0.8rem;
   color: #79a8a9;
   border-color: #79a8a9;
+}
+
+.button-word {
+  font-size: 0.8rem;
+  color: #79a8a9;
 }
