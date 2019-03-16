@@ -1,74 +1,110 @@
-
 /* AirInsight scene 1 */
-.air_scene_one{
-    background-color: white;
-    color:#333333;
+.air_scene_one {
+  background-color: white;
+  color: #333333;
 }
 
-.air_scene_one h2{
-    padding-top: 5%
+.air_scene_one h2 {
+  padding-top: 5%;
+  margin: 0% 0% 2% 3%;
 }
 
 /* AirInsight scene 2 */
-.air_scene_two{
-    background-color: #FBFBFB;
-    color:#333333;
+.air_scene_two {
+  background-color: #fbfbfb;
+  color: #333333;
 }
 
-.air_scene_two h2{
-    padding-top: 2%
+.air_scene_two h2 {
+  padding-top: 2%;
 }
 
 /* AirInsight scene 3 */
-.air_scene_three{
-    background-color: white;
-    color:#333333;
-
+.air_scene_three {
+  background-color: white;
+  color: #333333;
 }
 
-.air_scene_three h2{
-    padding-top: 2%;
+.air_scene_three h2 {
+  padding-top: 2%;
 }
 .air_third .card-body {
-    margin: 4% 11% 1% 7%;
-    
+  margin: 4% 11% 1% 7%;
 }
 
 .air_third .card-title {
-    margin: 2% 0% 6% 0%;
-    
+  margin: 2% 0% 6% 0%;
 }
 
 .air_third .card-test {
-   text-align: left;
-
+  text-align: left;
 }
 
-.air_third .card{
-    box-shadow: 5px 5px #888888;
+.air_third .card {
+  box-shadow: 5px 5px #888888;
 }
 
-.row{
-    padding-top: 3%;
+.row {
+  padding-top: 3%;
 }
 
-
-.air_button_row{
-    margin: 0 auto;
-    padding-bottom: 3%;
+.air_button_row {
+  margin: 0 auto;
+  padding-bottom: 3%;
 }
 
-.air_button_scene_one{
-    background: #79A8A9;
-    border: none;
-    font: bold;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
+.air_button_scene_one {
+  background: #79a8a9;
+  border: none;
+  font: bold;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
+.nav-tabs {
+  text-align: center;
+  position: relative;
+  border-radius: 0rem;
+  font-weight: bold;
+  margin: 2% 0 0% 0;
+}
 
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #79a8a9 #dee2e6 #f4f7f7;
+  border-top-width: 0.25rem;
+  border-radius: 0rem;
+  /* width: max-content; */
+}
+
+.nav-tabs .nav-link {
+  color: #568a9d;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 0rem;
+}
+
+.nav-tab-year {
+  margin: 0 1% 0 0;
+}
+
+.card {
+  /* margin: 1.5% 0%; */
+  border-radius: 0rem;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.row {
+  padding-top: 0%;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid transparent;
+}
