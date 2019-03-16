@@ -8,55 +8,43 @@
   pointer-events: none;
 }
 
-.App-header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
-}
-
 .App-link {
   color: #61dafb;
 }
 
-
 Container {
   overflow: hidden;
 }
+
 .nav_text a {
   color: lightgrey;
 }
+
 .nav_text a:hover {
   color: darkgrey;
 }
 
-.first {
-  background: tomato transparent;
-
-  height: 100vh;
+.nav-tabs {
   text-align: center;
-  size: 4em;
+  position: relative;
+  border-radius: 0rem;
+  font-weight: bold;
 }
 
-.second {
-  background: skyblue transparent;
-  height: 100vh;
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #f4f7f7;
+  border-color: #79a8a9 #dee2e6 #f4f7f7;
+  border-top-width: 0.25rem;
+  border-radius: 0rem;
+  /* width: max-content; */
 }
-.third {
-  background: lightcoral transparent;
-  height: 100vh;
-}
-.fourth {
-  background: lightgreen transparent;
-  height: 100vh;
-}
-.fifth {
-  background: lightgrey;
-  height: 100vh;
+
+.nav-tabs .nav-link {
+  color: #568a9d;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 0rem;
 }
 
 @keyframes App-logo-spin {
@@ -70,21 +58,22 @@ Container {
 
 /* Take Action  */
 .whole_page {
-  background: url(img/take_action_background.png) no-repeat center center fixed;
+  background: url(img/takeaction-background.png) no-repeat center center fixed;
   background-size: cover;
-  height: 300vh;
+  height: 200vh;
 }
 
 .header_text {
   font-size: 2rem;
   text-align: center;
-  margin: 0% 0 3% 0;
+  margin: 4% 0 2% 0;
   padding-top: 9%;
 }
 
 .sub_text {
   font-size: 1rem;
   text-align: center;
+  margin: 0 0 3% 0;
 }
 
 .takeaction_button {
@@ -92,6 +81,10 @@ Container {
   display: block;
   margin: 4% auto 0% auto;
   width: 50%;
+}
+
+.tab {
+  /* text-align: center; */
 }
 
 .jumbotron {
@@ -104,14 +97,15 @@ Container {
 .oncard_header {
   font-size: 1.5rem;
   text-align: center;
-  margin: 0% 0 3% 0;
+  margin: 0% 0 2% 0;
   padding-top: 2%;
 }
 
 .oncard_text {
   font-size: 1rem;
   text-align: center;
-  margin: 0 5% 5% 5%;
+  margin: 0 5% 0% 5%;
+  font-weight: 400;
 }
 
 .item_type {
@@ -120,12 +114,13 @@ Container {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-bottom: 2%;
+  width: 40%;
 }
 
 .item_type img {
   height: auto;
-  width: 25%;
+  width: 18%;
   padding: 0 2%;
 }
 
@@ -136,12 +131,13 @@ Container {
 
 .card-body {
   padding: 5% 0;
-  margin: 0 0% 0% 25%;
+  margin: 0% 3% 0% 5%;
   text-align: left;
 }
 
 .card-image {
   margin: 0 0% 0% 2%;
+  height: 6rem;
 }
 
 .card-title {
@@ -152,15 +148,31 @@ Container {
 .card-text {
   color: #79a8a9;
   margin: 1% 0 0 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  text-align: left;
 }
 
 .card-text-campaign {
-  color: #828282;
-  margin: 1% 0 0 0;
+  color: #333333;
+  margin: 3% 7% 5% 0%;
   font-size: 1rem;
+  text-align: left;
+  font-weight: 400;
 }
 
-.card-button {
-  margin: 1% 0 0 0;
+.card-image-campaign {
+  width: inherit;
+}
+
+.btn {
+  margin: 0% 0 0 0;
+  border-radius: 0rem;
+  font-size: 0.8rem;
+  color: #79a8a9;
+  border-color: #79a8a9;
+}
+
+.button-word {
+  font-size: 0.8rem;
+  color: #79a8a9;
 }
