@@ -39,8 +39,6 @@ class Contact extends Component {
     return (
       <div className="background_contact">
         <div className="Contact">
-
-        
         <p>Contact Me</p>
           <div>
             <form action="#">

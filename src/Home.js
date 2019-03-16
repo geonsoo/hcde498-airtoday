@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import { Nav, Navbar, Col, Container, Row, ButtonToolbar, Buttons, Overlays } from 'react-bootstrap';
 // import AirInsight from './AirInsight';
 import AirInsight from './AirInsight'
-
+import TakeAction from './TakeAction'
 import About from './About';
 import Contact from './Contact';
 
@@ -27,13 +27,14 @@ class Home extends Component {
                </Row>
 
                <Row >
-                <div class="button_row">
-                <Button variant="info" size="lg" class ="button_scene_one">Button</Button>
+                <div className ="button_row">
+                 <Button variant="info" size="lg" class ="button_scene_one" href = "AirInsight">Check Air Now</Button>
+                
                 </div>
               </Row>    
               </Container>
             </div>
-            <div className = "wrapper scene_two"  >  
+            <div className = "wrapper scene_two">  
               <Container className = "second">
                 <Row>
                   <Col>
@@ -96,11 +97,11 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 
                 <div className = "fourth_wrap">
                 
-                  <a href="#">  
+                  <a href="TakeAction">  
                     <div className ="img_left"> </div>
                   </a>
                       
-                  <a href="#"> 
+                  <a href="TakeAction"> 
                     <div className ="img_right"> </div>
                   </a>
                 </div>
