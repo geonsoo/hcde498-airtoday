@@ -23,38 +23,60 @@
   color: #61dafb;
 }
 
-
-Container{
+Container {
   overflow: hidden;
 }
-.nav_text a{
+.nav_text a {
   color: lightgrey;
 }
-.nav_text a:hover{
+.nav_text a:hover {
   color: darkgrey;
 }
 
+.nav-tabs {
+  text-align: center;
+  position: relative;
+  border-radius: 0rem;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #f4f7f7;
+  border-color: #79a8a9 #dee2e6 #f4f7f7;
+  border-top-width: 0.25rem;
+  border-radius: 0rem;
+  /* width: max-content; */
+}
+
+.nav-tabs .nav-link {
+  color: #568a9d;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 0rem;
+}
+
 /* Scene1 */
-.scene_one{
+.scene_one {
   background: url(./img/background_home.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.scene_one .col{
+.scene_one .col {
   margin: 25% 0 5% 0;
 }
 
-.section_one_text{
+.section_one_text {
   text-align: center;
   font-size: 2.5rem;
 
-  color: white
+  color: white;
 }
-.button_row{
+.button_row {
   margin: 0 auto;
 }
-.button_scene_one{
-  background: #79A8A9;
+.button_scene_one {
+  background: #79a8a9;
   border: none;
   font: bold;
   color: white;
@@ -67,142 +89,130 @@ Container{
 }
 
 /* Secene 2 */
-.scene_two{
+.scene_two {
   background: url(img/homepage_page_2.png) no-repeat center center fixed;
   background-size: cover;
 }
 
-.scene_two_title{
+.scene_two_title {
   color: white;
   font-size: 2rem;
   text-align: center;
   margin: 4% 0 3% 0;
-  
 }
 
-.scene_two_text{
+.scene_two_text {
   color: white;
   font-size: 1rem;
   text-align: center;
   line-height: 1.5;
   margin: 1% 0;
 }
-.second p{
+.second p {
   text-align: center;
 }
-.scene_image{
+.scene_image {
   margin: 0 auto;
   padding: 5%;
 }
 
-
-.scene_image img{
+.scene_image img {
   height: auto;
   width: 25%;
   padding: 0 2%;
 }
 
-
-
 /* Scene 3 */
-.scene_three{
+.scene_three {
   background: url(img/homepage_page_3.jpg) no-repeat center center fixed;
   background-size: cover;
-
 }
 
-
-.scene_three_wrap{
-  background-color: rgba(121,168,169, 0.5);
+.scene_three_wrap {
+  background-color: rgba(121, 168, 169, 0.5);
 
   width: 50%;
   padding: 5%;
   margin: 12% 0;
-  font:bold;
+  font: bold;
 }
 
-.scene_three_title{
+.scene_three_title {
   color: #333333;
   font-size: 2rem;
   margin: 0 0 4% 0;
-
 }
 
-.scene_three_text{
+.scene_three_text {
   color: #333333;
-  font-size:1rem;
+  font-size: 1rem;
   margin: 0;
 }
 
-
-
-
 /* Scene 4 */
-.scene_four{
+.scene_four {
   background: url(img/homepage_page_4.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.scene_four h2{
+.scene_four h2 {
   width: 100%;
   text-align: center;
   color: white;
   margin: 5% 0 2% 0;
 }
 
-.scene_four_left_text{
+.scene_four_left_text {
   color: white;
   font-size: 2rem;
   text-align: center;
 }
 
-.scene_four_right{
-
+.scene_four_right {
   margin: 13% 0;
 }
 
-.scene_four_right img{
+.scene_four_right img {
   padding: 4% 0 0 0;
 }
 
-.scene_four a{
+.scene_four a {
   margin: 0 1% 0 0;
 }
 
-.fourth_wrap{
+.fourth_wrap {
   margin: 0 auto;
 }
 
-
-.img_left{
-  background: url("img/dailyaction_original.jpg")  no-repeat;
+.img_left {
+  background: url("img/dailyaction_original.jpg") no-repeat;
   display: flex;
   width: 500px;
   height: 218px;
 }
 
-.img_left:hover{
-  background: url("img/dailyaction_hover.jpg")  no-repeat;
+.img_left:hover {
+  background: url("img/dailyaction_hover.jpg") no-repeat;
   width: 500px;
   height: 218px;
   display: flex;
 }
 
-.img_right{
-  background: url("img/campaign_original.jpg")  no-repeat;
+.img_right {
+  background: url("img/campaign_original.jpg") no-repeat;
   display: flex;
   width: 500px;
   height: 218px;
 }
 
-.img_right:hover{
-  background: url("img/campaign_hover.jpg")  no-repeat;
+.img_right:hover {
+  background: url("img/campaign_hover.jpg") no-repeat;
   width: 500px;
   height: 218px;
   display: flex;
 }
 
-.fourth img{
+.fourth img {
   max-width: 100%;
   height: auto;
   margin: 3% 0 0 3%;
@@ -215,7 +225,6 @@ Container{
   height: 100vh;
   text-align: center;
   size: 4em;
-
 }
 
 .second {
@@ -235,8 +244,6 @@ Container{
   height: 100vh;
 }
 
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -246,19 +253,18 @@ Container{
   }
 }
 
-
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .scene_three_wrap{
-    background-color: rgba(121,168,169, 0.5);
-  
+  .scene_three_wrap {
+    background-color: rgba(121, 168, 169, 0.5);
+
     width: 100%;
     padding: 5%;
     margin: 12% 0;
-    font:bold;
+    font: bold;
   }
 
-  .fourth img{
+  .fourth img {
     max-width: 95%;
     height: auto;
     width: 100%;
@@ -267,13 +273,12 @@ Container{
 
   .first {
     background: tomato transparent;
-    
+
     height: 65vh;
     text-align: center;
     size: 4em;
-  
   }
-  
+
   .second {
     background: skyblue transparent;
     height: 70vh;
@@ -287,35 +292,33 @@ Container{
     height: 90vh;
   }
 
+  .img_left {
+    background: url("img/dailyaction_original1.jpg") no-repeat;
+    display: block;
+    width: 390px;
+    height: 170px;
+  }
 
-  .img_left{
-    background: url("img/dailyaction_original1.jpg")  no-repeat;
-    display: block;
-    width: 390px;
-    height: 170px;
-  }
-  
-  .img_left:hover{
-    background: url("img/dailyaction_hover1.jpg")  no-repeat;
+  .img_left:hover {
+    background: url("img/dailyaction_hover1.jpg") no-repeat;
     width: 390px;
     height: 170px;
     display: block;
   }
-  
-  .img_right{
-    background: url("img/campaign_original1.jpg")  no-repeat;
+
+  .img_right {
+    background: url("img/campaign_original1.jpg") no-repeat;
     display: block;
     width: 390px;
     height: 170px;
   }
-  
-  .img_right:hover{
-    background: url("img/campaign_hover1.jpg")  no-repeat;
+
+  .img_right:hover {
+    background: url("img/campaign_hover1.jpg") no-repeat;
     width: 390px;
     height: 170px;
     display: block;
   }
-  
 }
 
 @keyframes App-logo-spin {
