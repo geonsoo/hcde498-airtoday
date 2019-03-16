@@ -36,10 +36,10 @@ class App extends Component {
               </Link>
             </Navbar.Brand>
             <Navbar.Collapse className="justify-content-end nav_text">
-              <Link to={"/"} className="nav-link">
+              {/* <Link to={"/"} className="nav-link">
                 {" "}
                 Home{" "}
-              </Link>
+              </Link> */}
               <Link to={"/AirInsight"} className="nav-link">
                 AirInsight
               </Link>
