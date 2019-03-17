@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hcde498-airtoday/precache-manifest.fb6bd33d0872acca56408e629a958e79.js"
+  "/hcde498-airtoday/precache-manifest.5337df41b4fac28e2a007d1cbc3a008e.js"
 );
 
 workbox.clientsClaim();
