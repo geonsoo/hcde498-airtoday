@@ -420,7 +420,7 @@ class TakeAction extends Component {
                               <Button variant="outline-dark" size="sm">
                                 <Link
                                   class="button-word"
-                                  target="blank"
+                                  target="blank_"
                                   to="https://earthjustice.org/"
                                 >
                                   Visit Campaign Website
