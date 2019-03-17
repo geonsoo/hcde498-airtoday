@@ -46,6 +46,7 @@ import cam5 from "./img/campaign5_cleanairday.png";
 
 const API_PATH = "http://localhost:3000/api/contact/index.php";
 
+
 class TakeAction extends Component {
   constructor(props) {
     super(props);
@@ -501,11 +502,9 @@ class TakeAction extends Component {
                   </Jumbotron>
                 </Tab>
               </Tabs>
-              ;
             </Row>
           </Container>
-        </div>
-
+        
         {/* Take action campaign end */}
 
         <footer>
@@ -515,7 +514,10 @@ class TakeAction extends Component {
             </Navbar.Collapse>
           </Navbar>
         </footer>
+        </div>
+
       </body>
+      
     );
   }
 }

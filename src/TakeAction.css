@@ -57,6 +57,10 @@ Container {
 }
 
 /* Take Action  */
+h1 b{
+  color: whitesmoke;
+}
+
 .whole_page {
   background: url(img/takeaction-background.png) no-repeat center center fixed;
   background-size: cover;
@@ -74,6 +78,7 @@ Container {
   font-size: 1rem;
   text-align: center;
   margin: 0 0 3% 0;
+  color: whitesmoke;
 }
 
 .takeaction_button {

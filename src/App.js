@@ -25,7 +25,7 @@ class App extends Component {
         <div>
           <Navbar bg="dark" variant="dark" fixed="top">
             <Navbar.Brand className="nav-link">
-              <Link to={"/"}>
+              <Link to={"/Home"}>
                 <img
                   src="img/air_logo.svg"
                   width="auto"
@@ -36,10 +36,6 @@ class App extends Component {
               </Link>
             </Navbar.Brand>
             <Navbar.Collapse className="justify-content-end nav_text">
-              {/* <Link to={"/"} className="nav-link">
-                {" "}
-                Home{" "}
-              </Link> */}
               <Link to={"/AirInsight"} className="nav-link">
                 AirInsight
               </Link>
@@ -52,7 +48,7 @@ class App extends Component {
             </Navbar.Collapse>
           </Navbar>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/Home" component={Home} />
             <Route path="/AirInsight" component={AirInsight} />
             <Route path="/TakeAction" component={TakeAction} />
             <Route path="/contact" component={Contact} />
