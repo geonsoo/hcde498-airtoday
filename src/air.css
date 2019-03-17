@@ -66,9 +66,15 @@
   border-radius: 4px;
 }
 
-.air_third button{
+.air_third .air_button_scene_small{
     background: #79a8a9;
     color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 .nav-tabs {

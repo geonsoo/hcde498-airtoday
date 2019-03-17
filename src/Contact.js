@@ -78,6 +78,15 @@ class Contact extends Component {
             </form>
           </div>
       </div>
+
+
+      <footer>
+          <Navbar bg="dark" variant="dark" sticky="bottom">
+            <Navbar.Collapse className="justify-content-end">
+              <Navbar.Text>Copyright © 2019 HCDE 498</Navbar.Text>
+            </Navbar.Collapse>
+          </Navbar>
+        </footer>
      </div>
 
      

@@ -88,7 +88,7 @@ class AirInsight extends Component {
               {/* <Row> */}
               <h2>Data by Year and Country</h2>
               {/* Country by Year */}
-              <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+              <Tabs defaultActiveKey="china" id="uncontrolled-tab-example">
                 <Tab eventKey="china" title="China">
                   {/* make china here  */}
                   <Tabs
@@ -98,7 +98,7 @@ class AirInsight extends Component {
                     // class="nav-tab-year"
                     defaultActiveKey="2014"
                   >
-                    <Tab eventKey="2014" title="2014" >
+                    <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
                         <Container>
                           <Row>
@@ -281,6 +281,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -465,6 +466,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -649,6 +651,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -833,6 +836,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -1028,13 +1032,9 @@ class AirInsight extends Component {
                       <Card.Title>
                       Should cars be banned outside schools?                      </Card.Title>
                       <Card.Text>
-                      Amongst other pollution, exhaust waste from cars is a problem because the fumes can get into the air we breathe.
-
-                    
-                      {/*https://www.bbc.co.uk/newsround/47453923?intlink_from_url=https://www.bbc.com/news/topics/cv1v5kzkdp2t/air-pollution&link_location=live-reporting-story*/}
-                      
+                      Amongst other pollution, exhaust waste from cars is a problem because the fumes can get into the air we breathe.           
                       </Card.Text>
-                      <Button variant="info" >Read More</Button>
+                      <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.bbc.co.uk/newsround/47453923?intlink_from_url=https://www.bbc.com/news/topics/cv1v5kzkdp2t/air-pollution&link_location=live-reporting-story">Read More</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -1048,9 +1048,9 @@ class AirInsight extends Component {
                       <Card.Text>
                       The study, published Tuesday in the European Heart Journal, found that air pollution caused an estimated 8.8 million extra deaths worldwide.
 
-                        {/* https://www.usnews.com/news/national-news/articles/2019-03-12/air-pollution-causes-88-million-extra-deaths-worldwide-each-year-study-says */}
+
                       </Card.Text>
-                      <Button variant="info" >Read More</Button>
+                      <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.usnews.com/news/national-news/articles/2019-03-12/air-pollution-causes-88-million-extra-deaths-worldwide-each-year-study-says ">Read More</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -1067,9 +1067,9 @@ class AirInsight extends Component {
                         NEW DELHI — The planned city of Gurugram, one of India’s industrial hubs, 
                         has glass-sided office buildings and swanky, 
                         high-rise apartments.
-                        {/* https://www.nytimes.com/2019/03/05/world/asia/india-air-pollution.html?rref=collection%2Ftimestopic%2FAir%20Pollution&action=click&contentCollection=science&region=stream&module=stream_unit&version=latest&contentPlacement=1&pgtype=collection */}
+                        
                         </Card.Text>
-                        <Button variant="info" >Read More</Button>
+                        <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.nytimes.com/2019/03/05/world/asia/india-air-pollution.html?rref=collection%2Ftimestopic%2FAir%20Pollution&action=click&contentCollection=science&region=stream&module=stream_unit&version=latest&contentPlacement=1&pgtype=collection" >Read More</Button>
                       </Card.Body>
                     </Card>
                   </a>
@@ -1077,7 +1077,7 @@ class AirInsight extends Component {
               </Row>
               <Row>
                 <div class="air_button_row">
-                  <Button variant="info" size="lg"  class="air_button_scene_one">
+                  <Button variant="info" size="lg"  class="air_button_scene_one" target="_blank" href="https://www.sciencedaily.com/news/earth_climate/air_pollution/">
                     View More Articles
                   </Button>
                 </div>
