@@ -182,7 +182,7 @@ h1 b{
   color: #79a8a9;
 }
 @media screen and (max-width: 800px) {
-  h1 {
+  .header_text {
     padding-top: 30%;
   }
 }
