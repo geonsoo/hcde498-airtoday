@@ -292,11 +292,11 @@ Container {
   }
   .third {
     background: lightcoral transparent;
-    height: 65vh;
+    height: 85vh;
   }
   .fourth {
     background: lightgreen transparent;
-    height: 90vh;
+    height: 70vh;
   }
 
   .img_left {

@@ -128,19 +128,15 @@
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-    .scene_three_wrap {
-      background-color: rgba(121, 168, 169, 0.5);
+    .air_scene_one{
+        height: 100%;
+   }
   
-      width: 100%;
-      padding: 5%;
-      margin: 12% 0;
-      font: bold;
-    }
-    .first{
-        padding-top: 14%;
-    }
-  
-    .second{
+    .air_scene_one h2{
+        padding-top: 20%;
+   }
+   
+    .air_scene_two .second{
         height:100%;
     }
   }

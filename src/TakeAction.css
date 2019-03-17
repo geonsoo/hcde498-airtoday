@@ -181,3 +181,8 @@ h1 b{
   font-size: 0.8rem;
   color: #79a8a9;
 }
+@media screen and (max-width: 800px) {
+  h1 {
+    padding-top: 30%;
+  }
+}
