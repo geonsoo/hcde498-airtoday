@@ -44,6 +44,9 @@ import cam3 from "./img/campaign3_earthjustice.png";
 import cam4 from "./img/campaign4_theglobeprogram.png";
 import cam5 from "./img/campaign5_cleanairday.png";
 
+
+
+
 const API_PATH = "http://localhost:3000/api/contact/index.php";
 
 
@@ -347,14 +350,14 @@ class TakeAction extends Component {
                                 and individuals to protect our health and planet
                                 from the effects of air pollution.
                               </div>
-                              <Button variant="outline-dark" size="sm">
-                                <Link
+                              <Button variant="outline-dark" size="sm" target="_blank"  href="http://breathelife2030.org/">
+                                {/* <Link
                                   class="button-word"
                                   target="blank"
                                   to="http://breathelife2030.org/"
-                                >
+                                > */}
                                   Visit Campaign Website
-                                </Link>
+                                {/* </Link> */}
                               </Button>
                             </Card.Body>
                           </div>
@@ -382,14 +385,14 @@ class TakeAction extends Component {
                                 working on. If there isn't one, consider
                                 starting a new one.
                               </div>
-                              <Button variant="outline-dark" size="sm">
-                                <Link
+                              <Button variant="outline-dark" size="sm" target="_blank"  href="https://friendsoftheearth.uk/clean-air">
+                                {/* <Link
                                   class="button-word"
                                   target="blank"
                                   to="https://friendsoftheearth.uk/clean-air"
-                                >
+                                > */}
                                   Visit Campaign Website
-                                </Link>
+                                {/* </Link> */}
                               </Button>
                             </Card.Body>
                           </div>
@@ -417,14 +420,14 @@ class TakeAction extends Component {
                                 telling the stories of those who are most
                                 impacted by weak smog protections.
                               </div>
-                              <Button variant="outline-dark" size="sm">
-                                <Link
+                              <Button variant="outline-dark" size="sm" target="_blank" href="https://earthjustice.org/">
+                                {/* <Link
                                   class="button-word"
                                   target="blank_"
                                   to="https://earthjustice.org/"
-                                >
+                                > */}
                                   Visit Campaign Website
-                                </Link>
+                                {/* </Link> */}
                               </Button>
                             </Card.Body>
                           </div>
@@ -451,14 +454,14 @@ class TakeAction extends Component {
                                 invited to study air quality and share their
                                 data with the GLOBE community.
                               </div>
-                              <Button variant="outline-dark" size="sm">
-                                <Link
+                              <Button variant="outline-dark" size="sm" target="_blank" href="https://www.globe.gov/">
+                                {/* <Link
                                   class="button-word"
                                   target="blank"
                                   to="https://www.globe.gov/"
-                                >
+                                > */}
                                   Visit Campaign Website
-                                </Link>
+                                {/* </Link> */}
                               </Button>
                             </Card.Body>
                           </div>
@@ -485,14 +488,14 @@ class TakeAction extends Component {
                                 local authorities, universities and health
                                 charities.
                               </div>
-                              <Button variant="outline-dark" size="sm">
-                                <Link
+                              <Button variant="outline-dark" size="sm" target="_blank" href="https://www.gov.uk/government/case-studies/clean-air-day-2018-uks-largest-air-pollution-campaign">
+                                {/* <Link
                                   class="button-word"
                                   target="blank"
                                   to="https://www.gov.uk/government/case-studies/clean-air-day-2018-uks-largest-air-pollution-campaign"
-                                >
+                                > */}
                                   Visit Campaign Website
-                                </Link>
+                                {/* </Link> */}
                               </Button>
                             </Card.Body>
                           </div>
