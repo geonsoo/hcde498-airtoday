@@ -97,13 +97,22 @@ Some types of air pollution, are caused form natural sources such as smoke from 
                 
                 <div className = "fourth_wrap">
                 
-                  <a href="TakeAction">  
+                <Link to={"/TakeAction"} className="TakeAction">
+                <div className ="img_left"> </div>
+              </Link>
+
+                  {/* <a href="TakeAction">  
                     <div className ="img_left"> </div>
                   </a>
-                      
-                  <a href="TakeAction"> 
+                       */}
+                  {/* <a href="TakeAction"> 
                     <div className ="img_right"> </div>
-                  </a>
+                  </a> */}
+              <Link to={"/TakeAction"} className="TakeAction">
+              <div className ="img_right"> </div>
+              </Link>
+
+
                 </div>
                </Row>
     
