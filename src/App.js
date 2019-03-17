@@ -49,6 +49,7 @@ class App extends Component {
             </Navbar.Collapse>
           </Navbar>
           <Switch>
+            <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />
             <Route path="/AirInsight" component={AirInsight} />
             <Route path="/TakeAction" component={TakeAction} />
