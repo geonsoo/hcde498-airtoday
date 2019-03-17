@@ -135,8 +135,20 @@
     .air_scene_one h2{
         padding-top: 20%;
    }
+
+
    
     .air_scene_two .second{
         height:100%;
+    }
+
+
+
+    .air_scene_two h2{
+        padding-top: 10%;
+    }
+
+    .air_scene_three h2{
+        padding-top: 10%;
     }
   }

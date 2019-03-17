@@ -53,7 +53,7 @@ class App extends Component {
           </Navbar>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/Home" component={Home} />
+            <Route path="/Home" component={Home} />
             <Route path="/AirInsight" component={AirInsight} />
             <Route path="/TakeAction" component={TakeAction} />
             <Route path="/contact" component={Contact} />
