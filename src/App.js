@@ -21,7 +21,8 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router>
+      
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar bg="dark" variant="dark" fixed="top">
             <Navbar.Brand className="nav-link">
@@ -53,8 +54,11 @@ class App extends Component {
             <Route path="/TakeAction" component={TakeAction} />
             <Route path="/contact" component={Contact} />
           </Switch>
+          
         </div>
-      </Router>
+
+        </Router>
+      
     );
   }
 }
