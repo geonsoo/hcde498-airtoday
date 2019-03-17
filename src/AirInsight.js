@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import Iframe from 'react-iframe'
+
 
 // import logo from './logo.svg';
 import "./air.css";
@@ -50,6 +52,8 @@ const mapStyles = {
 };
 
 class AirInsight extends Component {
+
+  
   render() {
     return (
       <div>
@@ -59,7 +63,7 @@ class AirInsight extends Component {
               <Row>
                 <h2>Live Data on Air Quality</h2>
               </Row>
-              <Map
+              {/* <Map
                 google={this.props.google}
                 zoom={14}
                 style={mapStyles}
@@ -67,7 +71,15 @@ class AirInsight extends Component {
                   lat: -1.2884,
                   lng: 36.8233
                 }}
-              />
+              /> */}
+              <Iframe url="https://www.airvisual.com/air-quality-map"
+        width="80%"
+        height="75%"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"
+        allowFullScreen/>
               <Row />
             </Container>
           </div>
@@ -76,7 +88,7 @@ class AirInsight extends Component {
               {/* <Row> */}
               <h2>Data by Year and Country</h2>
               {/* Country by Year */}
-              <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+              <Tabs defaultActiveKey="china" id="uncontrolled-tab-example">
                 <Tab eventKey="china" title="China">
                   {/* make china here  */}
                   <Tabs
@@ -84,6 +96,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -268,6 +281,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -452,6 +466,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -636,6 +651,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -820,6 +836,7 @@ class AirInsight extends Component {
                     transition={false}
                     id="noanim-tab-example"
                     // class="nav-tab-year"
+                    defaultActiveKey="2014"
                   >
                     <Tab eventKey="2014" title="2014">
                       <Jumbotron fluid>
@@ -1013,14 +1030,11 @@ class AirInsight extends Component {
                     <Card.Img variant="top" src={air_article_1} />
                     <Card.Body>
                       <Card.Title>
-                        A Warming World Increases Air Pollution
-                      </Card.Title>
+                      Should cars be banned outside schools?                      </Card.Title>
                       <Card.Text>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      Amongst other pollution, exhaust waste from cars is a problem because the fumes can get into the air we breathe.           
                       </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
+                      <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.bbc.co.uk/newsround/47453923?intlink_from_url=https://www.bbc.com/news/topics/cv1v5kzkdp2t/air-pollution&link_location=live-reporting-story">Read More</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -1029,13 +1043,14 @@ class AirInsight extends Component {
                   <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={air_article_2} />
                     <Card.Body>
-                      <Card.Title>Air Pollution is Coming Soon!</Card.Title>
+                      <Card.Title>Air Pollution Causes 8.8 Million Extra  a Year
+</Card.Title>
                       <Card.Text>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      The study, published Tuesday in the European Heart Journal, found that air pollution caused an estimated 8.8 million extra deaths worldwide.
+
+
                       </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
+                      <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.usnews.com/news/national-news/articles/2019-03-12/air-pollution-causes-88-million-extra-deaths-worldwide-each-year-study-says ">Read More</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -1045,13 +1060,16 @@ class AirInsight extends Component {
                     <Card style={{ width: "18rem" }}>
                       <Card.Img variant="top" src={air_article_3} />
                       <Card.Body className="card_body">
-                        <Card.Title>Climate Change News</Card.Title>
+                        <Card.Title>South Asia Is Smothered in Toxic Air, Report Finds
+
+                        </Card.Title>
                         <Card.Text>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        NEW DELHI — The planned city of Gurugram, one of India’s industrial hubs, 
+                        has glass-sided office buildings and swanky, 
+                        high-rise apartments.
+                        
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="info" class="air_button_scene_small" target="_blank" href="https://www.nytimes.com/2019/03/05/world/asia/india-air-pollution.html?rref=collection%2Ftimestopic%2FAir%20Pollution&action=click&contentCollection=science&region=stream&module=stream_unit&version=latest&contentPlacement=1&pgtype=collection" >Read More</Button>
                       </Card.Body>
                     </Card>
                   </a>
@@ -1059,8 +1077,8 @@ class AirInsight extends Component {
               </Row>
               <Row>
                 <div class="air_button_row">
-                  <Button variant="info" size="lg" class="air_button_scene_one">
-                    View Compagin Website
+                  <Button variant="info" size="lg"  class="air_button_scene_one" target="_blank" href="https://www.sciencedaily.com/news/earth_climate/air_pollution/">
+                    View More Articles
                   </Button>
                 </div>
               </Row>
