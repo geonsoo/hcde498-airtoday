@@ -24,8 +24,9 @@ class App extends Component {
       
       <Router basename={process.env.PUBLIC_URL}>
         <div>
-          <Navbar bg="dark" variant="dark" fixed="top">
+          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <Navbar.Brand className="nav-link">
+            
               <Link to={"/Home"}>
                 <img
                   src="img/air_logo.svg"
@@ -36,18 +37,25 @@ class App extends Component {
                 />
               </Link>
             </Navbar.Brand>
-            <Navbar.Collapse className="justify-content-end nav_text">
-              <Link to={"/AirInsight"} className="nav-link">
-                AirInsight
-              </Link>
-              <Link to={"/TakeAction"} className="nav-link">
-                TakeAction
-              </Link>
-              <Link to={"/contact"} className="nav-link">
-                Contact
-              </Link>
+
+
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className = "mr-auto">
+                <Nav.Link href=" /AirInsight" className="nav-link">
+                  AirInsight
+                </Nav.Link>
+                <Nav.Link href=" /TakeAction" className="nav-link">
+                  TakeAction
+                </Nav.Link>
+                <Nav.Link href=" /contact" className="nav-link">
+                  Contact
+                </Nav.Link>
+              </Nav>
             </Navbar.Collapse>
-          </Navbar>
+          </Navbar>;
+
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />

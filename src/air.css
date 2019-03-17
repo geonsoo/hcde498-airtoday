@@ -124,3 +124,23 @@
 .nav-tabs {
   border-bottom: 1px solid transparent;
 }
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .scene_three_wrap {
+      background-color: rgba(121, 168, 169, 0.5);
+  
+      width: 100%;
+      padding: 5%;
+      margin: 12% 0;
+      font: bold;
+    }
+    .first{
+        padding-top: 14%;
+    }
+  
+    .second{
+        height:100%;
+    }
+  }
