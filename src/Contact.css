@@ -50,6 +50,12 @@ input[type=submit]:hover {
 
 
 
-
+@media screen and (max-width: 800px) {
+  .Contact{
+    padding-top: 25%;
+    max-width: 300px;
+    padding-bottom: 30%;
+  }
+}
 
   
