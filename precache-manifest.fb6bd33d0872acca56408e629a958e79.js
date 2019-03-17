@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/dailyaction_original1.5e04dc4d.jpg"
   },
   {
-    "revision": "8d023855fd378ea43c95",
+    "revision": "1dfefc41afa881b1727a",
     "url": "/hcde498-airtoday/static/css/main.5bc8de06.chunk.css"
   },
   {
@@ -76,10 +76,6 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/2019-1.c460259b.png"
   },
   {
-    "revision": "79ac668c7d69fe19a8be39cf8e937676",
-    "url": "/hcde498-airtoday/static/media/dailyaction_original.79ac668c.jpg"
-  },
-  {
     "revision": "4fabd87ad50a218804001fb0020cc615",
     "url": "/hcde498-airtoday/static/media/campaign_hover.4fabd87a.jpg"
   },
@@ -88,20 +84,24 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/dailyaction_hover.e51e2310.jpg"
   },
   {
+    "revision": "79ac668c7d69fe19a8be39cf8e937676",
+    "url": "/hcde498-airtoday/static/media/dailyaction_original.79ac668c.jpg"
+  },
+  {
     "revision": "0d3a435ded48f3231da58c5cf17e34a6",
     "url": "/hcde498-airtoday/static/media/campaign_original1.0d3a435d.jpg"
   },
   {
-    "revision": "8d023855fd378ea43c95",
-    "url": "/hcde498-airtoday/static/js/main.20586dc6.chunk.js"
-  },
-  {
-    "revision": "52ef2f5cb710478e78e51788ec85a015",
-    "url": "/hcde498-airtoday/static/media/homepage_page_4.52ef2f5c.jpg"
+    "revision": "1dfefc41afa881b1727a",
+    "url": "/hcde498-airtoday/static/js/main.48cbd4a7.chunk.js"
   },
   {
     "revision": "41b3195508cc2029cf0e3da147389b4e",
     "url": "/hcde498-airtoday/static/media/campaign_original.41b31955.jpg"
+  },
+  {
+    "revision": "52ef2f5cb710478e78e51788ec85a015",
+    "url": "/hcde498-airtoday/static/media/homepage_page_4.52ef2f5c.jpg"
   },
   {
     "revision": "d7e458fdf14eb08228e36201510f7318",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/takeaction-background.01b7a4eb.png"
   },
   {
-    "revision": "ba64e6afdfffade9988c7778086bc189",
+    "revision": "d5b26b5445ad3c8b86b6d88ad489a8ba",
     "url": "/hcde498-airtoday/index.html"
   }
 ];
