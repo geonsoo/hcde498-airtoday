@@ -76,16 +76,16 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/2019-1.c460259b.png"
   },
   {
+    "revision": "e51e23101f14808269a5bd0a14d74d60",
+    "url": "/hcde498-airtoday/static/media/dailyaction_hover.e51e2310.jpg"
+  },
+  {
     "revision": "79ac668c7d69fe19a8be39cf8e937676",
     "url": "/hcde498-airtoday/static/media/dailyaction_original.79ac668c.jpg"
   },
   {
     "revision": "4fabd87ad50a218804001fb0020cc615",
     "url": "/hcde498-airtoday/static/media/campaign_hover.4fabd87a.jpg"
-  },
-  {
-    "revision": "e51e23101f14808269a5bd0a14d74d60",
-    "url": "/hcde498-airtoday/static/media/dailyaction_hover.e51e2310.jpg"
   },
   {
     "revision": "0d3a435ded48f3231da58c5cf17e34a6",
