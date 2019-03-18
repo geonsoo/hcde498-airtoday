@@ -28,7 +28,7 @@ class Home extends Component {
 
                <Row >
                 <div className ="button_row">
-                 <Button variant="info" size="lg" class ="button_scene_one" href = "AirInsight">Check Air Now</Button>
+                 <Button variant="info" size="lg" class ="button_scene_one" href = "./AirInsight">Check Air Now</Button>
                 
                 </div>
               </Row>    
