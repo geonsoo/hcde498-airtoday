@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5e04dc4d4f1a0a5178638e6fa681997b",
-    "url": "/hcde498-airtoday/static/media/dailyaction_original1.5e04dc4d.jpg"
+    "revision": "0d3a435ded48f3231da58c5cf17e34a6",
+    "url": "/hcde498-airtoday/static/media/campaign_original1.0d3a435d.jpg"
   },
   {
-    "revision": "b171cbfda8e3b4ba6758",
+    "revision": "ea9967f374b0a7a341c5",
     "url": "/hcde498-airtoday/static/css/main.d9038a80.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/js/runtime~main.c23aba5b.js"
   },
   {
-    "revision": "8d895e6789a11983cd2b",
-    "url": "/hcde498-airtoday/static/js/2.d3cc700e.chunk.js"
+    "revision": "b2103fd66403984bab45",
+    "url": "/hcde498-airtoday/static/js/2.19ef43c5.chunk.js"
   },
   {
     "revision": "4ea8626715243d32099505eed5a46d4c",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/dailyaction_hover.e51e2310.jpg"
   },
   {
-    "revision": "0d3a435ded48f3231da58c5cf17e34a6",
-    "url": "/hcde498-airtoday/static/media/campaign_original1.0d3a435d.jpg"
+    "revision": "5e04dc4d4f1a0a5178638e6fa681997b",
+    "url": "/hcde498-airtoday/static/media/dailyaction_original1.5e04dc4d.jpg"
   },
   {
-    "revision": "b171cbfda8e3b4ba6758",
-    "url": "/hcde498-airtoday/static/js/main.c87c8e9b.chunk.js"
+    "revision": "ea9967f374b0a7a341c5",
+    "url": "/hcde498-airtoday/static/js/main.50c3a6c0.chunk.js"
   },
   {
     "revision": "52ef2f5cb710478e78e51788ec85a015",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/hcde498-airtoday/static/media/takeaction-background.01b7a4eb.png"
   },
   {
-    "revision": "dd7cec09968aa081fa48fbf040ac48a7",
+    "revision": "cb05b14faaae5c724512275927e00f6c",
     "url": "/hcde498-airtoday/index.html"
   }
 ];
