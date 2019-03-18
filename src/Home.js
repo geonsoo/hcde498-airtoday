@@ -25,15 +25,10 @@ class Home extends Component {
                   </span>
                   </Col>
                </Row>
-
                <Row >
-
-              
                 <div className ="button_row">
-
                 <Link to={"/AirInsight"} className="nav-link">
-                 <Button variant="info" size="lg" class ="button_scene_one" >Check Air Now</Button>
-              
+                   <Button variant="info" size="lg" class ="button_scene_one" >Check Air Now</Button>
                  </Link>
                 </div>
 
@@ -135,6 +130,13 @@ Some types of air pollution, are caused form natural sources such as smoke from 
             </Navbar.Collapse>
          </Navbar>
          </footer>
+
+
+         <Switch>
+           
+            <Route path="/AirInsight" component={AirInsight} />
+            
+          </Switch>
       </div>
     )
   }
