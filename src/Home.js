@@ -27,10 +27,17 @@ class Home extends Component {
                </Row>
 
                <Row >
+
+              
                 <div className ="button_row">
-                 <Button variant="info" size="lg" class ="button_scene_one" href = "./AirInsight">Check Air Now</Button>
-                
+
+                <Link to={"/AirInsight"} className="nav-link">
+                 <Button variant="info" size="lg" class ="button_scene_one" >Check Air Now</Button>
+              
+                 </Link>
                 </div>
+
+                
               </Row>    
               </Container>
             </div>
